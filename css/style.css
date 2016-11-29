@@ -1,0 +1,222 @@
+/* --- NAV BAR --- */
+
+.navbar-default {
+	background-color: white;
+	border:none;
+	margin-bottom: 13px;
+	color:black;
+}
+
+.navbar-default .navbar-brand {
+	color:black;
+}
+
+.navbar-brand {
+	font-family: Roboto; 
+	color:black;
+	font-weight: 100;   
+	text-transform: uppercase; 
+	font-size:25px;
+	letter-spacing: 5px;
+	padding-top: 35px;
+	padding-left: 120px;
+}
+
+.navbar-default .navbar-nav>li>a {
+	font-family: Roboto;
+	font-weight: 100;     
+	font-size:15px;
+	letter-spacing: 3px;
+	padding-top: 28px;
+	text-transform: lowercase;
+}
+
+.navbar-default .navbar-nav>.open>a:focus, .navba-default .navbar-nav>.open>a:hover { 
+	background:white;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+	border:none;
+}
+
+#explore {
+	font-size:15px;
+}
+
+.navbar-right {
+	padding-right: 70px;
+}
+
+/* --- EXPLORE MENU COLUMN --- */
+
+#rightcolumn {
+	margin-right: -70px;
+}
+
+.dropdown-menu.columns-2 {
+	min-width: 305px;
+	border:none;
+	box-shadow: none;
+}
+
+.dropdown-menu li a {
+	padding-top: 4px;
+	padding-left:15px;
+	padding-bottom: 5px;
+	padding-right: 0px;
+}
+
+.multi-column-dropdown {
+	list-style: none;
+	padding:15px;
+}
+.multi-column-dropdown li a {
+	display: block;
+	clear: both;
+	line-height: 1.428571429;
+	color: black;
+	white-space: normal;
+}
+.multi-column-dropdown li a:hover {
+	text-decoration: none;
+	color: black;
+}
+
+.navheaders {
+	font-family: roboto;
+	font-weight: 100; 
+	font-style:italic; 
+	color:black;
+	font-size: 15px;
+	padding-left: 15px;
+	margin-bottom: 0px;
+	padding-bottom: 2px;
+	letter-spacing: 2px;
+}
+
+.navsublists {
+	font-family: roboto;
+	font-weight: 100;  
+	color:black;
+	list-style-type: none;
+	padding-left: 15px;
+	font-size: 13px;
+}
+
+#cateogories {
+	padding-top: 10px;
+}
+
+/* --- SEARCH BAR --- */
+
+.form-control {
+	font-family: roboto;
+	font-weight: 100;  
+	color:black;
+	border-radius:20px;
+	letter-spacing: 2px;
+}
+
+#searchbar {
+	padding-top: 20px;
+}
+
+#searchbutton {
+	border-radius: 0px 20px 20px 0px;
+	border-color: #ccc #ccc #ccc white;
+
+}
+
+#searchbutton:hover {
+	background:white;
+	border-color: #ccc #ccc #ccc white;
+}
+
+/* --- BANNER --- */
+
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.banner {
+	width:100%;
+	height:200px;
+	object-fit:cover;
+}
+
+/* --- POSTS --- */
+
+.post { 
+	margin-top: 30px;
+}
+
+.postphoto { 
+    height:270px;
+    width: 100%;
+    object-fit:cover;
+    background: black;
+}
+
+.darken img {
+    display: block;
+    
+    -webkit-transition: all 0.3s linear;
+       -moz-transition: all 0.3s linear;
+        -ms-transition: all 0.3s linear;
+         -o-transition: all 0.3s linear;
+            transition: all 0.3s linear;
+}
+
+.darken:hover img {
+    opacity: 0.8;
+            
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+}
+
+h5 {
+	font-family: roboto;     
+	font-size:18px;
+	font-weight: 100;
+	color:black;
+	background-color: white;
+	margin-bottom: 0px;
+}
+
+.tag {
+	font-family: roboto;     
+	font-size:14px;
+	font-weight: 100;
+	font-style:italic;
+	color:black;
+	background-color: white;
+	padding-top: 0px;
+	margin-bottom: 0px;
+}
+
+.author {
+	font-family: roboto;     
+	font-size:12px;
+	font-weight: 100;
+	color:#777;
+	padding-top: 0px;
+}
+
+a.links {
+	color:black;
+}
+
+.btn {
+	display:inline-block;
+}
+
+#unionville {
+	margin-bottom: 50px;
+}
+
+.footer {
+	margin-bottom:70px;
+}
